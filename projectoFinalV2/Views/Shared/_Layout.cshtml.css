@@ -53,3 +53,13 @@ html {
 body {
     margin-bottom: 60px;
 }
+/* Footer Styles */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Cambia el color de fondo según tu preferencia */
+    text-align: center;
+    padding: 10px 0; /* Añade espaciado alrededor del texto */
+}

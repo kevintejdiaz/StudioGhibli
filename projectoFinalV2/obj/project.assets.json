@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kevin\\Desktop\\DAW\\LlenguatjeDeMarques\\UF3\\projectoFinalV2\\projectoFinalV2.csproj",
+      "projectUniqueName": "C:\\Users\\kevin\\Desktop\\DAW\\LlenguatjeDeMarques\\UF3\\StudioGhibli\\projectoFinalV2\\projectoFinalV2.csproj",
       "projectName": "projectoFinalV2",
-      "projectPath": "C:\\Users\\kevin\\Desktop\\DAW\\LlenguatjeDeMarques\\UF3\\projectoFinalV2\\projectoFinalV2.csproj",
+      "projectPath": "C:\\Users\\kevin\\Desktop\\DAW\\LlenguatjeDeMarques\\UF3\\StudioGhibli\\projectoFinalV2\\projectoFinalV2.csproj",
       "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kevin\\Desktop\\DAW\\LlenguatjeDeMarques\\UF3\\projectoFinalV2\\obj\\",
+      "outputPath": "C:\\Users\\kevin\\Desktop\\DAW\\LlenguatjeDeMarques\\UF3\\StudioGhibli\\projectoFinalV2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"
