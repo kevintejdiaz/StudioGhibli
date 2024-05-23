@@ -1,0 +1,17 @@
+﻿@model projectoFinalV2.Models.FilmPeople
+
+@{
+    ViewData["Title"] = "Personajes y Películas";
+}
+<div class="privacy-page">
+    <div class="contenedor-Carta">
+        @foreach (var film in Model.Films)
+        {
+            <div class="carta">
+                <img src="@film.image" class="imagen-carta mx-auto d-block">
+                <h3>@film.title</h3>
+                <p>@film.description</p>
+            </div>
+        }
+    </div>
+</div>

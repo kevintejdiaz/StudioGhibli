@@ -1,0 +1,81 @@
+headeeeer {
+    background-color: #666666; /* Color de fondo gris */
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.5); /* Sombra */
+    padding: 10px 0; /* Añadir relleno para que el contenido no toque los bordes */
+}
+
+.navbar a {
+    color: #ffffff; /* Color del texto de los enlaces en la navbar */
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.contenedor-Carta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.carta {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imagen-carta {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .carta {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .carta {
+        width: 100%;
+    }
+}
+
+.film-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.film-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.film-image {
+    margin-bottom: 20px; /* Espacio entre la imagen y la información de los personajes */
+}
+
+.characters-info {
+    text-align: center;
+}
+
+.characters-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.character-item {
+    margin-bottom: 5px;
+}

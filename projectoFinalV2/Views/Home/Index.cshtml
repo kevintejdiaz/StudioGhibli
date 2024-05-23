@@ -1,0 +1,20 @@
+﻿@model List<projectoFinalV2.Models.Film>
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="contenedor-Carta">
+    @foreach(var film in Model)
+    {
+        <div class="carta">
+            <a href="@Url.Action("Final", "Home", new { filmId = film.id })">
+                <img src="@film.image" class="imagen-carta mx-auto d-block">
+            </a>
+            <h3>@film.title</h3>
+            <p>Director: @film.director</p>
+            <p>Fecha de lanzamiento: @film.release_date</p>
+        </div>
+    }
+
+

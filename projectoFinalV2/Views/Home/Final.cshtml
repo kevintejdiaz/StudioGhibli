@@ -1,0 +1,26 @@
+@model projectoFinalV2.Models.FilmPeople
+
+@{
+    ViewData["Title"] = "Detalles de la Película";
+}
+
+<div class="film-details-container">
+    @foreach (var film in Model.Films)
+    {
+        <div id="film-card-@film.id" class="film-card">
+            <div class="film-image">
+                <img src="@film.image" alt="@film.title">
+            </div>
+            <div class="characters-info">
+                <h3 class="film-title">@film.title</h3>
+                <h4 class="characters-title">Personajes:</h4>
+                <ul class="characters-list">
+                    @foreach (var person in Model.People.Where(p => p.films.Contains($"https://ghibliapi.vercel.app/films/{film.id}")))
+                    {
+                        <li class="character-item">@person.name</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    }
+</div>
